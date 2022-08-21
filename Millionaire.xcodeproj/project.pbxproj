@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDA8EB3D28B2238A009FFFF6 /* RecordsCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EB3C28B2238A009FFFF6 /* RecordsCaretaker.swift */; };
+		EDD1E6FA28B1379C00C4FE19 /* GameViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1E6F928B1379C00C4FE19 /* GameViewControllerDelegate.swift */; };
+		EDD1E70028B1718C00C4FE19 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1E6FF28B1718C00C4FE19 /* RecordsViewController.swift */; };
 		EDF18B24289D53580017B4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B23289D53580017B4F8 /* AppDelegate.swift */; };
 		EDF18B26289D53580017B4F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B25289D53580017B4F8 /* SceneDelegate.swift */; };
-		EDF18B28289D53580017B4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B27289D53580017B4F8 /* ViewController.swift */; };
+		EDF18B28289D53580017B4F8 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B27289D53580017B4F8 /* StartViewController.swift */; };
 		EDF18B2B289D53580017B4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF18B29289D53580017B4F8 /* Main.storyboard */; };
-		EDF18B2D289D53590017B4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF18B2C289D53590017B4F8 /* Assets.xcassets */; };
 		EDF18B30289D53590017B4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF18B2E289D53590017B4F8 /* LaunchScreen.storyboard */; };
+		EDF18B38289D5C8D0017B4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF18B37289D5C8D0017B4F8 /* Assets.xcassets */; };
+		EDF18B3A289D60810017B4F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B39289D60810017B4F8 /* GameViewController.swift */; };
+		EDF18B3E28ACE2920017B4F8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B3D28ACE2920017B4F8 /* Game.swift */; };
+		EDF18B4028ACE9020017B4F8 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18B3F28ACE9020017B4F8 /* GameSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDA8EB3C28B2238A009FFFF6 /* RecordsCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCaretaker.swift; sourceTree = "<group>"; };
+		EDD1E6F928B1379C00C4FE19 /* GameViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerDelegate.swift; sourceTree = "<group>"; };
+		EDD1E6FF28B1718C00C4FE19 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
 		EDF18B20289D53580017B4F8 /* Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF18B23289D53580017B4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF18B25289D53580017B4F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDF18B27289D53580017B4F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF18B27289D53580017B4F8 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		EDF18B2A289D53580017B4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDF18B2C289D53590017B4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF18B2F289D53590017B4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF18B31289D53590017B4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF18B37289D5C8D0017B4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF18B39289D60810017B4F8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EDF18B3D28ACE2920017B4F8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EDF18B3F28ACE9020017B4F8 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDA8EB3B28B22366009FFFF6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8EB3C28B2238A009FFFF6 /* RecordsCaretaker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDD1E6F828B1377600C4FE19 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EDD1E6F928B1379C00C4FE19 /* GameViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		EDF18B17289D53580017B4F8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +84,29 @@
 		EDF18B22289D53580017B4F8 /* Millionaire */ = {
 			isa = PBXGroup;
 			children = (
+				EDA8EB3B28B22366009FFFF6 /* Utils */,
+				EDD1E6F828B1377600C4FE19 /* Protocols */,
+				EDF18B3C289D60BD0017B4F8 /* ViewControllers */,
+				EDF18B3D28ACE2920017B4F8 /* Game.swift */,
+				EDF18B3F28ACE9020017B4F8 /* GameSession.swift */,
 				EDF18B23289D53580017B4F8 /* AppDelegate.swift */,
 				EDF18B25289D53580017B4F8 /* SceneDelegate.swift */,
-				EDF18B27289D53580017B4F8 /* ViewController.swift */,
-				EDF18B29289D53580017B4F8 /* Main.storyboard */,
-				EDF18B2C289D53590017B4F8 /* Assets.xcassets */,
 				EDF18B2E289D53590017B4F8 /* LaunchScreen.storyboard */,
+				EDF18B29289D53580017B4F8 /* Main.storyboard */,
+				EDF18B37289D5C8D0017B4F8 /* Assets.xcassets */,
 				EDF18B31289D53590017B4F8 /* Info.plist */,
 			);
 			path = Millionaire;
+			sourceTree = "<group>";
+		};
+		EDF18B3C289D60BD0017B4F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDF18B27289D53580017B4F8 /* StartViewController.swift */,
+				EDF18B39289D60810017B4F8 /* GameViewController.swift */,
+				EDD1E6FF28B1718C00C4FE19 /* RecordsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF18B30289D53590017B4F8 /* LaunchScreen.storyboard in Resources */,
-				EDF18B2D289D53590017B4F8 /* Assets.xcassets in Resources */,
+				EDF18B38289D5C8D0017B4F8 /* Assets.xcassets in Resources */,
 				EDF18B2B289D53580017B4F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF18B28289D53580017B4F8 /* ViewController.swift in Sources */,
+				EDF18B3A289D60810017B4F8 /* GameViewController.swift in Sources */,
+				EDA8EB3D28B2238A009FFFF6 /* RecordsCaretaker.swift in Sources */,
+				EDF18B3E28ACE2920017B4F8 /* Game.swift in Sources */,
+				EDF18B28289D53580017B4F8 /* StartViewController.swift in Sources */,
 				EDF18B24289D53580017B4F8 /* AppDelegate.swift in Sources */,
+				EDF18B4028ACE9020017B4F8 /* GameSession.swift in Sources */,
+				EDD1E6FA28B1379C00C4FE19 /* GameViewControllerDelegate.swift in Sources */,
 				EDF18B26289D53580017B4F8 /* SceneDelegate.swift in Sources */,
+				EDD1E70028B1718C00C4FE19 /* RecordsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +341,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +371,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
